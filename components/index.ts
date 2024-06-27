@@ -6,11 +6,11 @@ export { default as NearbyJobs } from "./home/nearby/NearbyJobs";
 export { default as PopularJobs } from "./home/popular/PopularJobs";
 
 // job details screen
-// import Company from "./jobdetails/company/Company";
-// import { default as JobTabs } from "./jobdetails/tabs/Tabs";
-// import { default as JobAbout } from "./jobdetails/about/About";
-// import { default as JobFooter } from "./jobdetails/footer/Footer";
-// import Specifics from "./jobdetails/specifics/Specifics";
+export { default as Company } from "./jobdetails/company/Company";
+export { default as JobTabs } from "./jobdetails/tabs/Tabs";
+export { default as JobAbout } from "./jobdetails/about/About";
+export { default as JobFooter } from "./jobdetails/footer/Footer";
+export { default as Specifics } from "./jobdetails/specifics/Specifics";
 
 // common
 export { default as NearbyJobCard } from "./common/cards/nearby/NearbyJobCard";
